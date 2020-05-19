@@ -24,7 +24,6 @@ default: &default
 development:
   <<: *default
   database: mindy
-  password: mindy
   #database: rails_react_recipe_development
 
   # The specified database role being used to connect to postgres.
